@@ -1,0 +1,680 @@
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 28px;
+  }
+  .price_compare_btn, .pricing-info-sec p {
+    font-size: 16px;
+  }
+  .price_card_sec h2 {
+    font-size: 24px;
+  }
+  .price_card .nav-tabs .nav-link,
+  .price_card .nav-tabs .nav-link.active,
+  .pricecard_contain:hover .pricecard_tag,
+  .pricecard_body .pricecard_list li h4,
+  .pricecard_addons h5,
+  .pricecard_addons span,
+  .price_compare_sec .price_card_amount .pricecard_btn_primary,
+  .price_compare_sec .price_card_amount .pricecard_btn_secondary,
+  .price_compare_feature_heading h4,
+  .pricecompare_feature_list,
+  .price_compare_sec .mobileColumnGroup th {
+    font-size: 14px;
+  }
+  .pricecard_header h3 {
+    font-size: 22px;
+  }
+  .pricecard_header p {
+    font-size: 16px;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .price_disclaimer_dv sup,
+  .price_compare_sec .table_data_heading {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .addons_sec .addon_card .addons_title,
+  .addons_sec .addon_card .addons_title span {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .price_compare_sec .price_compare_sec_title,
+  .price_compare_sec .price_compare_sec_title span,
+  .addons_sec h2,
+  .addons_sec h2 span {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+}
+
+/* iPad and iPad Pro */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 28px;
+  }
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 16px;
+  }
+  .price_card_sec h2 {
+    font-size: 24px;
+  }
+  /* Font size adjustments for iPad and iPad Pro */
+  .price_card .nav-tabs .nav-link,
+  .price_card .nav-tabs .nav-link.active,
+  .pricecard_contain:hover .pricecard_tag,
+  .pricecard_body .pricecard_list li h4,
+  .pricecard_addons h5,
+  .pricecard_addons span,
+  .price_compare_sec .price_card_amount .pricecard_btn_primary,
+  .price_compare_sec .price_card_amount .pricecard_btn_secondary,
+  .price_compare_feature_heading h4,
+  .pricecompare_feature_list,
+  .price_compare_sec .mobileColumnGroup th {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .pricecard_header h3 {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+  .pricecard_header p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 10px;
+    line-height: 1.3;
+  }
+
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .price_disclaimer_dv p {
+    font-size: 11px;
+    line-height: 1.4;
+  }
+
+  .price_disclaimer_dv sup,
+  .price_compare_sec .table_data_heading {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .addons_sec .addon_card .addons_title,
+  .addons_sec .addon_card .addons_title span {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .price_compare_sec .price_compare_sec_title,
+  .price_compare_sec .price_compare_sec_title span,
+  .addons_sec h2,
+  .addons_sec h2 span {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+}
+
+/* Large screens - approximate values */
+@media screen and (min-width: 3000px) {
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 48px;
+  }
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 24px;
+  }
+  .price_card_sec h2 {
+    font-size: 40px;
+  }
+}
+
+
+/* For a 60-inch screen */
+@media (min-width: 3201px) and (max-width: 4500px) {
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 60px;
+  }
+
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 32px;
+  }
+
+  .price_card_sec h2 {
+    font-size: 48px;
+  }
+}
+
+/* Ultra high-resolution displays (4K) */
+@media (min-resolution: 384dpi) {
+  .pricecard_header h3 {
+    font-size: 32px;
+  }
+  .pricecard_header p {
+    font-size: 20px;
+  }
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 48px;
+  }
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 26px;
+  }
+  .price_card_sec h2 {
+    font-size: 40px;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 54px;
+  }
+
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 20px;
+  }
+
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 3840px) {
+  .pricecard_header h3 {
+    font-size: 44px;
+  }
+  .pricecard_header p {
+    font-size: 26px;
+  }
+   /* 55-inch screen */
+   .pricing-info-sec h1,
+   .pricing-info-sec h1 span,
+   .pricecard_contain:hover h3 {
+     font-size: 54px;
+   }
+ 
+   .pricing-info-sec p,
+   .price_compare_btn {
+     font-size: 28px;
+   }
+ 
+   .price_card_sec h2 {
+     font-size: 44px;
+   }
+   .pricecard_header .priceby_numbers,
+   .price_compare_sec .price_card_amount .priceby_numbers {
+     font-size: 54px;
+   }
+ 
+   .pricecard_header .priceper_month,
+   .price_compare_sec .price_card_amount .priceper_month {
+     font-size: 20px;
+   }
+ 
+   .pricecard_btn_primary,
+   .pricecard_btn_secondary,
+   .addons_sec .addon_card li,
+   .addons_sec .addon_card p,
+   .addons_sec .addon_card .addons_btn_sec .addons_link {
+     font-size: 24px;
+   }
+   .price_card .nav-tabs .nav-link,
+   .price_card .nav-tabs .nav-link.active,
+   .pricecard_contain:hover .pricecard_tag,
+   .pricecard_body .pricecard_list li h4,
+   .pricecard_addons h5,
+   .pricecard_addons span,
+   .price_compare_sec .price_card_amount .pricecard_btn_primary,
+   .price_compare_sec .price_card_amount .pricecard_btn_secondary,
+   .price_compare_feature_heading h4,
+   .pricecompare_feature_list,
+   .price_compare_sec .mobileColumnGroup th {
+     font-size: 24px;
+   }
+}
+
+@media (min-width: 3440px) {
+  .pricecard_header h3 {
+    font-size: 42px;
+  }
+  .pricecard_header p {
+    font-size: 25px;
+  }
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 72px;
+  }
+
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 40px;
+  }
+
+  .price_card_sec h2 {
+    font-size: 56px;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 50px;
+  }
+
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 18px;
+  }
+
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 22px;
+  }
+
+  .price_card .nav-tabs .nav-link,
+  .price_card .nav-tabs .nav-link.active,
+  .pricecard_contain:hover .pricecard_tag,
+  .pricecard_body .pricecard_list li h4,
+  .pricecard_addons h5,
+  .pricecard_addons span,
+  .price_compare_sec .price_card_amount .pricecard_btn_primary,
+  .price_compare_sec .price_card_amount .pricecard_btn_secondary,
+  .price_compare_feature_heading h4,
+  .pricecompare_feature_list,
+  .price_compare_sec .mobileColumnGroup th {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 3072px) {
+  .pricecard_header h3 {
+    font-size: 40px;
+  }
+  .pricecard_header p {
+    font-size: 24px;
+  }
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 68px;
+  }
+
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 38px;
+  }
+
+  .price_card_sec h2 {
+    font-size: 54px;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 48px;
+  }
+
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 20px;
+  }
+
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 24px;
+  }
+  .price_card .nav-tabs .nav-link,
+  .price_card .nav-tabs .nav-link.active,
+  .pricecard_contain:hover .pricecard_tag,
+  .pricecard_body .pricecard_list li h4,
+  .pricecard_addons h5,
+  .pricecard_addons span,
+  .price_compare_sec .price_card_amount .pricecard_btn_primary,
+  .price_compare_sec .price_card_amount .pricecard_btn_secondary,
+  .price_compare_feature_heading h4,
+  .pricecompare_feature_list,
+  .price_compare_sec .mobileColumnGroup th {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 40px;
+  }
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 22px;
+  }
+  .price_card_sec h2 {
+    font-size: 34px;
+  }
+  .pricecard_header h3 {
+    font-size: 38px;
+  }
+  .pricecard_header p {
+    font-size: 23px;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 46px;
+  }
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 16px;
+  }
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 20px;
+  }
+  .price_card .nav-tabs .nav-link,
+  .price_card .nav-tabs .nav-link.active,
+  .pricecard_contain:hover .pricecard_tag,
+  .pricecard_body .pricecard_list li h4,
+  .pricecard_addons h5,
+  .pricecard_addons span,
+  .price_compare_sec .price_card_amount .pricecard_btn_primary,
+  .price_compare_sec .price_card_amount .pricecard_btn_secondary,
+  .price_compare_feature_heading h4,
+  .pricecompare_feature_list,
+  .price_compare_sec .mobileColumnGroup th {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 2304px) {
+  .pricecard_header h3 {
+    font-size: 36px;
+  }
+  .pricecard_header p {
+    font-size: 22px;
+  }
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 62px;
+  }
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 34px;
+  }
+
+  .price_card_sec h2 {
+    font-size: 50px;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 44px;
+  }
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 18px;
+  }
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 22px;
+  }
+  .price_card .nav-tabs .nav-link,
+  .price_card .nav-tabs .nav-link.active,
+  .pricecard_contain:hover .pricecard_tag,
+  .pricecard_body .pricecard_list li h4,
+  .pricecard_addons h5,
+  .pricecard_addons span,
+  .price_compare_sec .price_card_amount .pricecard_btn_primary,
+  .price_compare_sec .price_card_amount .pricecard_btn_secondary,
+  .price_compare_feature_heading h4,
+  .pricecompare_feature_list,
+  .price_compare_sec .mobileColumnGroup th {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 2160px) {
+  .pricecard_header h3 {
+    font-size: 34px;
+  }
+  .pricecard_header p {
+    font-size: 21px;
+  }
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 56px;
+  }
+
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 30px;
+  }
+
+  .price_card_sec h2 {
+    font-size: 46px;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 42px;
+  }
+
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 16px;
+  }
+
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 20px !important;
+    line-height: 1.4;
+  }
+  .price_card .nav-tabs .nav-link,
+  .price_card .nav-tabs .nav-link.active,
+  .pricecard_contain:hover .pricecard_tag,
+  .pricecard_body .pricecard_list li h4,
+  .pricecard_addons h5,
+  .pricecard_addons span,
+  .price_compare_sec .price_card_amount .pricecard_btn_primary,
+  .price_compare_sec .price_card_amount .pricecard_btn_secondary,
+  .price_compare_feature_heading h4,
+  .pricecompare_feature_list,
+  .price_compare_sec .mobileColumnGroup th {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .pricecard_header h3 {
+    font-size: 32px;
+  }
+  .pricecard_header p {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 54px;
+  }
+
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 22px;
+  }
+
+  .price_card_sec h2 {
+    font-size: 44px;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 40px;
+  }
+
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 14px;
+  }
+
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 18px !important;
+    line-height: 1.4;
+  }
+  .price_card .nav-tabs .nav-link,
+  .price_card .nav-tabs .nav-link.active,
+  .pricecard_contain:hover .pricecard_tag,
+  .pricecard_body .pricecard_list li h4,
+  .pricecard_addons h5,
+  .pricecard_addons span,
+  .price_compare_sec .price_card_amount .pricecard_btn_primary,
+  .price_compare_sec .price_card_amount .pricecard_btn_secondary,
+  .price_compare_feature_heading h4,
+  .pricecompare_feature_list,
+  .price_compare_sec .mobileColumnGroup th {
+    font-size: 15px;
+  }
+}
+/* 
+@media (min-width: 1680px) {
+  .pricecard_header h3 {
+    font-size: 30px;
+  }
+  .pricecard_header p {
+    font-size: 19px;
+  }
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 52px;
+  }
+
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 26px;
+  }
+
+  .price_card_sec h2 {
+    font-size: 42px;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 38px;
+  }
+
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 14px;
+  }
+
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .pricecard_header h3 {
+    font-size: 28px;
+  }
+  .pricecard_header p {
+    font-size: 18px;
+  }
+  .pricing-info-sec h1,
+  .pricing-info-sec h1 span,
+  .pricecard_contain:hover h3 {
+    font-size: 50px;
+  }
+
+  .pricing-info-sec p,
+  .price_compare_btn {
+    font-size: 25px;
+  }
+
+  .price_card_sec h2 {
+    font-size: 41px;
+  }
+  .pricecard_header .priceby_numbers,
+  .price_compare_sec .price_card_amount .priceby_numbers {
+    font-size: 36px;
+  }
+
+  .pricecard_header .priceper_month,
+  .price_compare_sec .price_card_amount .priceper_month {
+    font-size: 14px;
+  }
+
+  .pricecard_btn_primary,
+  .pricecard_btn_secondary,
+  .addons_sec .addon_card li,
+  .addons_sec .addon_card p,
+  .addons_sec .addon_card .addons_btn_sec .addons_link {
+    font-size: 18px;
+  }
+} */
